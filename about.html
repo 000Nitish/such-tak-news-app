@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Magazine</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+         /* <!-- CSS for Hover Effect --> */
+         .nav-link:hover {
+            color: #ff6f61 !important;
+        }
+    
+        .navbar-toggler {
+            border: none;
+            outline: none;
+        }
+    
+        .navbar-toggler-icon {
+            background-color: white;
+        }
+        /* <!-- CSS for Hover Animation --> */
+        .container .rounded:hover {
+            transform: scale(1.03);
+        }
+        /* main */
+        /* About Us Section Styles */
+.about-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.about-card:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1.5rem;
+    color: #555;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #666;
+}
+
+.card {
+    padding: 30px;
+}
+
+/* Responsive Design: Adjust padding and card size */
+@media (max-width: 768px) {
+    .about-card {
+        padding: 20px;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h4 {
+        font-size: 1.3rem;
+    }
+}
+
+         /* <!-- CSS for Footer Styling --> */
+      .social-icon {
+        color: white;
+        margin: 0 10px;
+        font-size: 1.5rem;
+        transition: transform 0.3s, color 0.3s;
+       }
+    
+     .social-icon:hover {
+        transform: scale(1.2);
+        color: #ff6f61;
+      }
+    </style>
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(90deg, #0f0c29, #302b63, #24243e); padding: 10px;">
+    <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="image/logo 1.jpg" alt="Such Tak Logo" style="width: 60px; height: 60px; border-radius: 50%; margin-right: 10px;">
+            <span style="color: #f0f0f0; font-size: 1.5rem; font-weight: bold;">Such Tak</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html" style="color: #f0f0f0; transition: color 0.3s;">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html" style="color: #f0f0f0; transition: color 0.3s;">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactme.html" style="color: #f0f0f0; transition: color 0.3s;">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <!-- About Page Content -->
+<div class="container mt-5">
+    <div class="card about-card shadow-lg p-5">
+        <h2 class="text-center mb-4">About Us</h2>
+        <h4 class="mt-4">Our Vision</h4>
+        <p>
+            At Such Tak News, our vision is to become a trusted source of news, offering a platform that empowers individuals with the truth. We believe in providing news that is fair, balanced, and comprehensive, allowing readers to make informed decisions based on facts. As the world evolves, we aim to evolve with it, adapting to new technologies and trends while upholding the values of journalistic integrity.
+        </p>
+        <h4 class="mt-4">Our Commitment to Innovation</h4>
+        <p>
+            In today’s fast-paced world, we are committed to staying at the forefront of digital journalism. Our platform is designed to deliver content seamlessly across devices, ensuring that you can access the latest news at your fingertips, wherever you are. From interactive videos to immersive storytelling, we are constantly exploring new ways to bring you the news in an engaging and informative manner.
+        </p>
+        <h4 class="mt-4">Join the Conversation</h4>
+        <p>
+            At Such Tak News, we believe that every voice matters. We encourage our readers to engage with us through comments, feedback, and social media. Share your thoughts, opinions, and ideas with us, and be a part of a vibrant community that values open dialogue and critical thinking.
+        </p>
+        <p class="mb-0">
+            Stay connected, stay informed. Welcome to Such Tak News!
+        </p>
+    </div>
+</div>
+
+<style>
+
+</style>
+
+
+    <!-- Footer -->
+<footer style="background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); color: white; padding: 30px 0;">
+    <div class="container text-center">
+        <h3 style="font-weight: bold; margin-bottom: 20px;">Stay Connected</h3>
+
+        <div class="mb-3">
+            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+        </div>
+        
+        <p>&copy; 2025 Such Tak. All rights reserved.</p>
+    </div>
+</footer>
+<!-- Add Font Awesome for Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
