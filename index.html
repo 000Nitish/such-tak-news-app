@@ -17,7 +17,6 @@
             height: 200px;
             object-fit: cover;
         }
-        /* <!-- CSS for Hover Effect --> */
         .nav-link:hover {
             color: #ff6f61 !important;
         }
@@ -30,11 +29,9 @@
         .navbar-toggler-icon {
             background-color: white;
         }
-        /* <!-- CSS for Hover Animation --> */
         .container .rounded:hover {
             transform: scale(1.03);
         }
-    /* Card Style */
     .article-card {
         border: none;
         border-radius: 10px;
@@ -63,30 +60,23 @@
     .card-slider {
         display: flex;
         justify-content: flex-start;
-        flex-wrap: wrap; /* Allows wrapping when needed */
+        flex-wrap: wrap; 
         gap: 20px;
         padding: 10px;
     }
-    
-    /* Optional: Add some padding for the container */
     .container {
         padding-top: 40px;
     }
-    
-    /* Responsive Design: Two cards per row on medium screens */
     @media (max-width: 992px) {
         .article-card {
-            width: 45%; /* Two cards per row for medium screens */
+            width: 45%; 
         }
     }
-    
-    /* Responsive Design: One card per row on small screens */
     @media (max-width: 768px) {
         .article-card {
-            width: 100%; /* One card per row for smaller screens */
+            width: 100%; 
         }
     }    
-        /* <!-- CSS for Footer Styling --> */
       .social-icon {
         color: white;
         margin: 0 10px;
@@ -101,7 +91,6 @@
     </style>
 </head>
 <body>
-    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(90deg, #0f0c29, #302b63, #24243e); padding: 10px;">
         <div class="container-fluid">
             <a class="navbar-brand d-flex align-items-center" href="#">
@@ -126,16 +115,17 @@
             </div>
         </div>
     </nav>
-    <!-- Hero Section -->
+    <!-- logo Section -->
     <div class="container mb-5">
         <div class="p-5 text-center rounded" style="background: linear-gradient(135deg, #6a11cb, #2575fc); color: white; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); transition: transform 0.3s;">
             <h1 style="font-size: 3rem; font-weight: bold; margin-bottom: 10px;">Welcome to <span style="color: #ff6f61;">Such Tak</span></h1>
             <p style="font-size: 1.2rem;">Your source for the latest news, articles, and multimedia content.</p>
         </div>
-    </div><!-- Articles Section -->
+    </div>
+    <!-- Main Section -->
     <div class="container mb-5">
         <div class="card-slider d-flex flex-wrap justify-content-start">
-            <!-- Article 1 -->
+            <!-- card -->
             <div class="card article-card me-4 mb-4">
                 <img src="image/pro1.avif" class="card-img-top" alt="Article Image">
                 <div class="card-body">
@@ -145,7 +135,6 @@
                 </div>
             </div>
     
-            <!-- Article 2 -->
             <div class="card article-card me-4 mb-4">
                 <img src="image/pro1.avif" class="card-img-top" alt="Article Image">
                 <div class="card-body">
@@ -155,7 +144,6 @@
                 </div>
             </div>
     
-            <!-- Article 3 -->
             <div class="card article-card me-4 mb-4">
                 <img src="image/pro3.avif" class="card-img-top" alt="Article Image">
                 <div class="card-body">
@@ -165,7 +153,6 @@
                 </div>
             </div>
     
-            <!-- Article 4 -->
             <div class="card article-card me-4 mb-4">
                 <img src="image/pro4.avif" class="card-img-top" alt="Article Image">
                 <div class="card-body">
@@ -175,7 +162,6 @@
                 </div>
             </div>
     
-            <!-- Article 5 -->
             <div class="card article-card me-4 mb-4">
                 <img src="image/pro5.avif" class="card-img-top" alt="Article Image">
                 <div class="card-body">
@@ -185,7 +171,6 @@
                 </div>
             </div>
     
-            <!-- Article 6 -->
             <div class="card article-card me-4 mb-4">
                 <img src="image/pro6.avif" class="card-img-top" alt="Article Image">
                 <div class="card-body">
@@ -208,14 +193,10 @@
             <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
             <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
         </div>
-        
         <p>&copy; 2025 Such Tak. All rights reserved.</p>
     </div>
 </footer>
-<!-- Add Font Awesome for Icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
